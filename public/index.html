@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+		<link rel="stylesheet" href="css/custom.css">
+		
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="assets/background.jpg" data-background-repeat="cover">
+					<img src="assets/logoHackages.jpg" class="ci logo-landing"/>
+					<h3>Welcome, Loan !</h3>
+				</section>
+				<section 
+					data-background-image="assets/background.jpg" 
+					data-background-repeat="cover">
+					<img src="assets/squirrel.png" class="ci squicky" />
+					<h3>My name's Squicky the squirrel and I'll guide you through your first day</h3>
+				</section>
+				<section 
+					data-background-image="assets/background.jpg" 
+					data-background-repeat="cover">
+					<img src="assets/squirrel.png" class="ci squicky" />
+					<h3>First, let's make a tour of the tools you're gonna use on a daily bases</h3>
+				</section>
+				<section 
+				data-background-image="assets/background.jpg" 
+				data-background-repeat="cover">
+					<img src="assets/squirrel.png" class="ci squicky" />
+					<div class="fragment one-liner">
+						<p>
+							You can discuss with the team on 
+						</p>
+						<p>
+							<a href="https://hackages.slack.com" rel="noopener" target="_blank">
+								<img src="assets/slack.png" class="ci logos" />
+							</a>
+						</p>
+					</div>
+					<div class="fragment one-liner">
+						<p>
+							You can find all our code on
+						</p>
+						<p>
+							<a href="https://github.com/hackages" rel="noopener" target="_blank">
+								<img src="assets/github.png" class="ci logos" />
+							</a>
+						</p>
+					</div>
+					<div class="fragment one-liner">
+						<p>
+							You can find more infos about the team here
+						</p>
+						<p>
+							<a href="https://hackages.io/about" rel="noopener" target="_blank">
+								<img src="assets/logoHackages.jpg" class="ci logos" />
+							</a>
+						</p>
+					</div>
+				</section>
+				<section>
+						<img src="assets/squirrel.png" class="ci squicky" />
+						<p class="fragment">But before that doing all that ...</p>
+						<p class="fragment">You're gonna have to setup your @hackages account !</p>
+						<h4 class="fragment">🤔</h4>
+				</section>
+				
+				<section 
+					data-background-image="assets/background_3.jpg" 
+					data-background-repeat="cover">
+					<img src="assets/badass-squirrel.png" class="ci squicky" />
+					<p class="fragment">To do that...</p>
+					<p class="fragment">You're gonna have to think a little bit...</p>
+					<p class="fragment">You're going to have to solve a series of problem to get the password of loan@hackages.io</p>
+					<p class="fragment">You can find the first one on the next slide ... </p>
+				</section>
+				<section 
+					data-background-image="assets/background_3.jpg" 
+					data-background-repeat="cover">
+					<img src="assets/badass-squirrel.png" class="ci squicky" />
+					<p class="fragment">First, start by cloning <a href="repo">this repo</a></p>
+					<p class="fragment">Once you've done that, execute level_1.sh</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
